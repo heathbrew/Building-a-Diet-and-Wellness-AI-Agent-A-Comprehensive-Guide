@@ -158,3 +158,18 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# Exclude specific embedding models
+Mistral7b_Model/mistral-7b-instruct-v0.1.Q5_K_M.gguf
+MiniLM-L12-v2/
+qdrant_storage/
+Dataset/train.tsv
+fast_MiniLM-L6-v2/
+MiniLM-L6-v2/
+llama-2-7b-chat.Q4_0.gguf
+Dataset/News_Category_Dataset_v3.json
+Dataset/encoded_news_data.csv
+models/Llama2/llama-2-7b-chat.Q4_0.gguf
+models/Llama3/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf
+
